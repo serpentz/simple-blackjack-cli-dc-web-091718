@@ -6,7 +6,7 @@ end
   # code #deal_card here
   Random.rand(11) + 1
 end
- def display_card_total
+
 def display_card_total(card_total)
   puts "Your cards add up to #{card_total}"
   # code #display_card_total here
@@ -19,7 +19,7 @@ end
   # code #get_user_input here
   gets.chomp
 end
- def end_game
+
 def end_game(card_total)
   # code #end_game here
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
@@ -30,7 +30,7 @@ end
   deal_card2 = deal_card
   deal_card1 += deal_card2
 end
- def hit?
+
 def hit?(number)
   # code hit? here
   prompt_user
@@ -56,4 +56,5 @@ end
   # code runner here
   game = blackjack.new
   game.welcome
+  
  end
