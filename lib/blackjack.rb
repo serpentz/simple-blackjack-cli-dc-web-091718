@@ -61,7 +61,5 @@ card_total = game.initial_round
     card_total = hit?(card_total)
     display_card_total(card_total)
   end
-
-
 endgame(card_total)
  end
