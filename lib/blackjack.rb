@@ -36,10 +36,9 @@ def hit?(number)
   prompt_user
   answer = get_user_input
   until answer  == 'h' || answer  == 's'
-invalid_command
-prompt_user
-answer = get_user_input
-
+    invalid_command
+    prompt_user
+    answer = get_user_input
   end
   if answer  == 'h'
     number += deal_card
@@ -48,7 +47,7 @@ answer = get_user_input
       end_game
     end
   elsif answer =='s'
-   return number
+    number
 
 end
  def invalid_command
