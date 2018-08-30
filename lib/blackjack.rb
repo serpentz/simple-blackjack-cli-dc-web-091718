@@ -35,6 +35,12 @@ def hit?(number)
   # code hit? here
   prompt_user
   answer = get_user_input
+  until answer  == 'h' || answer  == 's'
+invalid_command
+prompt_user
+answer = get_user_input
+
+  end
   if answer  == 'h'
     number += deal_card
     display_card_total(number)
@@ -42,10 +48,8 @@ def hit?(number)
       end_game
     end
   elsif answer =='s'
-   return nil
-  else
-    invalid_command
-   end
+   return number
+  
 end
  def invalid_command
   # code invalid_command here
