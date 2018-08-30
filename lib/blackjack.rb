@@ -49,7 +49,7 @@ answer = get_user_input
     end
   elsif answer =='s'
    return number
-  
+
 end
  def invalid_command
   # code invalid_command here
