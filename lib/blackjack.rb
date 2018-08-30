@@ -42,10 +42,6 @@ def hit?(number)
   end
   if answer  == 'h'
     number += deal_card
-    display_card_total(number)
-    if(number>21)
-      end_game
-    end
   elsif answer =='s'
     number
   end
