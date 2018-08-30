@@ -52,7 +52,7 @@ end
   puts "invalid Command"
 end
  #####################################################
-@@ -40,5 +63,7 @@ def invalid_command
+def invalid_command
  def runner
   # code runner here
   game = blackjack.new
