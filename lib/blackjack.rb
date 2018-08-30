@@ -48,7 +48,7 @@ def hit?(number)
     end
   elsif answer =='s'
     number
-
+  end
 end
  def invalid_command
   # code invalid_command here
