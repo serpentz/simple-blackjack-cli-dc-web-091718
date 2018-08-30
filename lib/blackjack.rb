@@ -56,5 +56,5 @@ end
   # code runner here
   game = blackjack.new
   game.welcome
-  
+
  end
